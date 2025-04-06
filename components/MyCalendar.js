@@ -16,7 +16,7 @@ const Calendar = () => {
       "1": [{ time: "7:00 PM", label: "Scheduling Activity", type: "success" }],
       "5": [{ time: "11:59 AM", label: "Capstone 1 Research", type: "success" }]
     };
-
+//calemdar
     return (
       <div className="calendar-cell rounded border p-2 bg-white">
         <div className="fw-bold">{date}</div>

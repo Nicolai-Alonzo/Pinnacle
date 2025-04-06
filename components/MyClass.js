@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './MyClass.css';
-
+//class
 const tabs = [
   { key: 'assignments', label: 'ASSIGNMENTS' },
   { key: 'quizzes', label: 'QUIZZES & EXAMS' },
