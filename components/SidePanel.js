@@ -8,7 +8,7 @@ const SidePanel = () => {
       className="d-flex flex-column vh-100 p-3"
       style={{ width: '250px', backgroundColor: '#040303', color: '#ffffff' }}
     >
-      <h4 className="mb-4">EduPortal</h4>
+      <h4 className="mb-4">Pinnacle</h4>
 
       <ul className="nav nav-pills flex-column mb-auto">
         <li className="nav-item mb-3">
@@ -44,7 +44,7 @@ const SidePanel = () => {
       </ul>
 
       <div className="mt-auto">
-        <Link to="/logout" className="nav-link text-white">
+        <Link to="/login" className="nav-link text-white">
           <i className="bi bi-box-arrow-right me-2"></i> Log out
         </Link>
       </div>
