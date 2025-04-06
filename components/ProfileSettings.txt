@@ -1,0 +1,12 @@
+/*For ProfileSettings*/
+import ProfileSettings from './ProfileSettings';
+
+function AppLayout() {
+  return (
+    <div>
+      <ProfileSettings />
+      {/* Page content */}
+    </div>
+  );
+}
+

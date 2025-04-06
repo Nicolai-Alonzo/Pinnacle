@@ -1,0 +1,13 @@
+/*For Side Panel*/
+import SidePanel from './SidePanel';
+
+function DashboardPage() {
+  return (
+    <div className="d-flex">
+      <SidePanel />
+      <div className="p-4 flex-grow-1">
+        {/* Your main content here */}
+      </div>
+    </div>
+  );
+}
